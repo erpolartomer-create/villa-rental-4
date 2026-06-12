@@ -1,0 +1,28 @@
+import { Amenity } from '@/types/villa'
+
+export const amenities: Amenity[] = [
+  { id: 'pool', slug: 'pool', icon: '🏊', group: 'outdoor', translations: { tr: 'Özel Havuz', en: 'Private Pool', ru: 'Частный бассейн' } },
+  { id: 'jacuzzi', slug: 'jacuzzi', icon: '🛁', group: 'outdoor', translations: { tr: 'Jakuzi', en: 'Jacuzzi', ru: 'Джакузи' } },
+  { id: 'seaview', slug: 'seaview', icon: '🌊', group: 'view', translations: { tr: 'Deniz Manzarası', en: 'Sea View', ru: 'Вид на море' } },
+  { id: 'bbq', slug: 'bbq', icon: '🔥', group: 'outdoor', translations: { tr: 'Mangal Alanı', en: 'BBQ Area', ru: 'Зона барбекю' } },
+  { id: 'wifi', slug: 'wifi', icon: '📶', group: 'tech', translations: { tr: 'Ücretsiz Wi-Fi', en: 'Free Wi-Fi', ru: 'Бесплатный Wi-Fi' } },
+  { id: 'ac', slug: 'ac', icon: '❄️', group: 'comfort', translations: { tr: 'Klima', en: 'Air Conditioning', ru: 'Кондиционер' } },
+  { id: 'parking', slug: 'parking', icon: '🚗', group: 'outdoor', translations: { tr: 'Özel Otopark', en: 'Private Parking', ru: 'Частная парковка' } },
+  { id: 'kitchen', slug: 'kitchen', icon: '🍳', group: 'indoor', translations: { tr: 'Tam Donanımlı Mutfak', en: 'Fully Equipped Kitchen', ru: 'Полностью оборудованная кухня' } },
+  { id: 'dishwasher', slug: 'dishwasher', icon: '🍽️', group: 'indoor', translations: { tr: 'Bulaşık Makinesi', en: 'Dishwasher', ru: 'Посудомоечная машина' } },
+  { id: 'washer', slug: 'washer', icon: '🧺', group: 'indoor', translations: { tr: 'Çamaşır Makinesi', en: 'Washing Machine', ru: 'Стиральная машина' } },
+  { id: 'tv', slug: 'tv', icon: '📺', group: 'tech', translations: { tr: 'Akıllı TV', en: 'Smart TV', ru: 'Смарт ТВ' } },
+  { id: 'terrace', slug: 'terrace', icon: '🌿', group: 'outdoor', translations: { tr: 'Teras/Balkon', en: 'Terrace/Balcony', ru: 'Терраса/Балкон' } },
+  { id: 'garden', slug: 'garden', icon: '🌺', group: 'outdoor', translations: { tr: 'Bahçe', en: 'Garden', ru: 'Сад' } },
+  { id: 'kidspool', slug: 'kidspool', icon: '🏊‍♂️', group: 'outdoor', translations: { tr: 'Çocuk Havuzu', en: 'Kids Pool', ru: 'Детский бассейн' } },
+  { id: 'playarea', slug: 'playarea', icon: '🎪', group: 'outdoor', translations: { tr: 'Oyun Alanı', en: 'Play Area', ru: 'Игровая площадка' } },
+  { id: 'gym', slug: 'gym', icon: '💪', group: 'indoor', translations: { tr: 'Spor Salonu', en: 'Gym', ru: 'Тренажёрный зал' } },
+  { id: 'sauna', slug: 'sauna', icon: '🧖', group: 'indoor', translations: { tr: 'Sauna', en: 'Sauna', ru: 'Сауна' } },
+  { id: 'hamam', slug: 'hamam', icon: '♨️', group: 'indoor', translations: { tr: 'Hamam', en: 'Turkish Bath', ru: 'Турецкая баня' } },
+  { id: 'fireplace', slug: 'fireplace', icon: '🔥', group: 'indoor', translations: { tr: 'Şömine', en: 'Fireplace', ru: 'Камин' } },
+  { id: 'boatdock', slug: 'boatdock', icon: '⛵', group: 'outdoor', translations: { tr: 'Tekne İskelesi', en: 'Boat Dock', ru: 'Лодочная пристань' } },
+  { id: 'seaaccess', slug: 'seaaccess', icon: '🚢', group: 'outdoor', translations: { tr: 'Denize Özel Erişim', en: 'Private Sea Access', ru: 'Частный выход к морю' } },
+  { id: 'staffed', slug: 'staffed', icon: '👨‍🍳', group: 'service', translations: { tr: 'Hizmetli Personel', en: 'Staffed Service', ru: 'Персонал в вилле' } },
+  { id: 'chef', slug: 'chef', icon: '👨‍🍳', group: 'service', translations: { tr: 'Özel Şef (Talep üzerine)', en: 'Private Chef (On request)', ru: 'Частный повар (по запросу)' } },
+  { id: 'transfer', slug: 'transfer', icon: '🚐', group: 'service', translations: { tr: 'Transfer Hizmeti', en: 'Transfer Service', ru: 'Трансфер' } },
+]

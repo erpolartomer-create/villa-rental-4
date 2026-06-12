@@ -1,0 +1,319 @@
+{
+  "nav": {
+    "villas": "Villas",
+    "blog": "Blog",
+    "about": "About Us",
+    "contact": "Contact",
+    "account": "My Account",
+    "favorites": "My Favorites",
+    "bookings": "My Bookings",
+    "wizard": "Find Villa",
+    "login": "Sign In",
+    "logout": "Sign Out",
+    "admin": "Admin Panel"
+  },
+  "home": {
+    "hero": {
+      "title": "Kaş & Kalkan's",
+      "titleHighlight": "Most Beautiful Villas",
+      "subtitle": "Live your dream villa holiday on the shores of the Mediterranean, the jewel of Turkey. Luxury villas, private pools, stunning views.",
+      "searchCheckin": "Check-in Date",
+      "searchCheckout": "Check-out Date",
+      "searchGuests": "Number of Guests",
+      "searchButton": "Search Villas",
+      "wizardButton": "Villa Finder Wizard",
+      "stats": {
+        "villas": "Villas",
+        "guests": "Happy Guests",
+        "years": "Years Experience"
+      }
+    },
+    "categories": {
+      "title": "Find Villas by Category",
+      "subtitle": "Choose the most suitable villa category for your needs and taste"
+    },
+    "featured": {
+      "title": "Featured Villas",
+      "subtitle": "The legendary villas most preferred by our guests",
+      "viewAll": "View All Villas"
+    },
+    "honeymoon": {
+      "title": "Honeymoon Villas",
+      "subtitle": "Romantic and luxurious villas to make your special moment unforgettable",
+      "badge": "Romantic Getaway",
+      "cta": "Explore Honeymoon Villas"
+    },
+    "region": {
+      "title": "Why Kaş & Kalkan?",
+      "subtitle": "Everything about Turkey's most beautiful holiday destination",
+      "feature1Title": "Crystal Sea",
+      "feature1Desc": "Region with the cleanest coves and beaches of the Mediterranean",
+      "feature2Title": "Historical Richness",
+      "feature2Desc": "Ancient cities and ruins bearing the traces of Lycian civilization",
+      "feature3Title": "Gastronomy Paradise",
+      "feature3Desc": "Authentic restaurants full of fresh seafood and local delicacies",
+      "feature4Title": "Water Sports",
+      "feature4Desc": "Active holiday with diving, sailing, kayaking and boat tours"
+    },
+    "testimonials": {
+      "title": "What Our Guests Say?",
+      "subtitle": "A selection of experiences from thousands of happy guests"
+    },
+    "blog": {
+      "title": "Blog & Travel Guide",
+      "subtitle": "Useful information and tips about Kaş and Kalkan",
+      "readMore": "Read More",
+      "viewAll": "View All Posts"
+    },
+    "wizard": {
+      "title": "Let's Find Your Perfect Villa",
+      "subtitle": "Find the perfect villa in 4 steps",
+      "startButton": "Start Wizard"
+    }
+  },
+  "villa": {
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "guests": "Guests",
+    "size": "m²",
+    "perNight": "/ night",
+    "from": "from",
+    "viewDetails": "View Details",
+    "inquire": "Booking Request",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "amenities": "Amenities",
+    "location": "Location",
+    "reviews": "Reviews",
+    "similarVillas": "Similar Villas",
+    "availability": "Availability Calendar",
+    "availabilityLegend": {
+      "available": "Available",
+      "booked": "Booked",
+      "selected": "Selected"
+    },
+    "sticky": {
+      "selectDates": "Select Dates",
+      "checkin": "Check-in",
+      "checkout": "Check-out",
+      "guests": "Guests",
+      "adults": "Adults",
+      "children": "Children",
+      "babies": "Infants",
+      "nights": "nights",
+      "cleaningFee": "Cleaning Fee",
+      "total": "Total",
+      "requestButton": "Send Booking Request",
+      "inquiryNote": "Free consultation, no payment",
+      "minStay": "Minimum stay:",
+      "priceNote": "Prices are in EUR"
+    },
+    "gallery": {
+      "showAll": "View All Photos",
+      "close": "Close"
+    },
+    "checkin": "Check-in Time",
+    "checkout": "Check-out Time",
+    "minStay": "Min. Stay",
+    "securityDeposit": "Security Deposit"
+  },
+  "search": {
+    "title": "Search Villas",
+    "filters": "Filters",
+    "clearFilters": "Clear Filters",
+    "results": "results found",
+    "noResults": "No villas found matching your search criteria.",
+    "sortBy": "Sort By",
+    "sortOptions": {
+      "recommended": "Recommended",
+      "priceLow": "Lowest Price",
+      "priceHigh": "Highest Price",
+      "rating": "Highest Rating",
+      "popular": "Most Popular"
+    },
+    "view": {
+      "grid": "Grid",
+      "list": "List",
+      "map": "Map"
+    },
+    "priceRange": "Price Range",
+    "bedrooms": "Number of Bedrooms",
+    "any": "Any",
+    "categories": "Categories",
+    "amenities": "Amenities"
+  },
+  "wizard": {
+    "title": "Let's Find Your Perfect Villa",
+    "subtitle": "Find your dream villa by answering a few questions",
+    "step": "Step",
+    "of": "of",
+    "next": "Next",
+    "back": "Back",
+    "search": "Search Villas",
+    "step1": {
+      "title": "When Do You Want to Go?",
+      "checkin": "Check-in Date",
+      "checkout": "Check-out Date"
+    },
+    "step2": {
+      "title": "How Many People Are You?",
+      "adults": "Adults",
+      "adultsNote": "13 years and over",
+      "children": "Children",
+      "childrenNote": "2-12 years",
+      "babies": "Infants",
+      "babiesNote": "Under 2 years"
+    },
+    "step3": {
+      "title": "What Are Your Preferences?",
+      "subtitle": "You can select multiple"
+    },
+    "step4": {
+      "title": "What Is Your Budget?",
+      "perNight": "per night"
+    },
+    "results": {
+      "title": "Villas Suitable for You",
+      "found": "villas found",
+      "noResults": "No villas found matching your criteria. Try relaxing the filters.",
+      "modifySearch": "Modify Search"
+    }
+  },
+  "booking": {
+    "title": "Booking Request",
+    "villaDetails": "Villa Details",
+    "guestInfo": "Guest Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "nationality": "Nationality",
+    "specialRequests": "Special Requests",
+    "specialRequestsPlaceholder": "Specify any special requests (e.g. baby cot, early check-in, etc.)",
+    "summary": "Summary",
+    "checkin": "Check-in",
+    "checkout": "Check-out",
+    "nights": "Nights",
+    "guests": "Guests",
+    "pricePerNight": "Price per Night",
+    "cleaningFee": "Cleaning Fee",
+    "total": "Total",
+    "submitRequest": "Submit Request",
+    "terms": "By submitting the booking request, you agree to our privacy policy.",
+    "confirmation": {
+      "title": "Your Request Has Been Received!",
+      "subtitle": "Your booking request has been successfully submitted. We will get back to you within 2 hours.",
+      "email": "Confirmation email sent to:",
+      "refCode": "Reference Code:",
+      "backHome": "Back to Home",
+      "viewVillas": "View Other Villas"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Travel guides, tips and inspiring content about Kaş, Kalkan and the surrounding region",
+    "readMore": "Read More",
+    "postedOn": "Posted:",
+    "views": "views",
+    "categories": {
+      "guide": "Guide",
+      "tips": "Tips",
+      "activities": "Activities",
+      "destination": "Destination",
+      "nature": "Nature",
+      "booking": "Booking"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Our experienced team connecting you with the most beautiful villas in Kaş and Kalkan",
+    "story": {
+      "title": "Our Story",
+      "content": "Founded in Kaş in 2015, our company transformed into the most trusted villa rental platform in the region within 10 years. With over 200 premium villas, 5000+ happy guests and numerous awards, we redefined villa holidays."
+    },
+    "values": {
+      "title": "Our Values",
+      "trust": "Trust",
+      "trustDesc": "Every villa is personally inspected, every information verified",
+      "quality": "Quality",
+      "qualityDesc": "Only the highest standard villas are in our portfolio",
+      "service": "Service",
+      "serviceDesc": "24/7 support in Turkish, English and Russian"
+    },
+    "team": "Our Team",
+    "contact": "Get in Touch"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Reach out to us for your questions, we'll get back to you as soon as possible",
+    "form": {
+      "name": "Your Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "success": "Your message has been sent! We'll get back to you shortly.",
+      "error": "An error occurred. Please try again."
+    },
+    "info": {
+      "address": "Address",
+      "addressValue": "Çukurbağ Peninsula, Kaş, Antalya",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Working Hours",
+      "hoursValue": "Every day 09:00 - 21:00"
+    }
+  },
+  "footer": {
+    "description": "Unforgettable holiday experiences in the most beautiful villas of Kaş and Kalkan",
+    "quickLinks": "Quick Links",
+    "categories": "Categories",
+    "contact": "Contact",
+    "copyright": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "sitemap": "Sitemap"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try Again",
+    "back": "Back",
+    "viewAll": "View All",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "night": "night",
+    "nights": "nights",
+    "guest": "guest",
+    "guests": "guests",
+    "bedroom": "bedroom",
+    "bedrooms": "bedrooms",
+    "bathroom": "bathroom",
+    "bathrooms": "bathrooms",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "and": "and",
+    "from": "from",
+    "to": "to",
+    "min": "Min.",
+    "max": "Max.",
+    "readMore": "Read More",
+    "showLess": "Show Less",
+    "showMore": "Show More"
+  },
+  "currency": {
+    "eur": "Euro",
+    "try": "Turkish Lira",
+    "usd": "US Dollar"
+  }
+}

@@ -1,0 +1,100 @@
+import { BlogPost } from '@/types/villa'
+
+export const blogPosts: BlogPost[] = [
+  {
+    id: 'b001',
+    slug: 'kalkan-kas-tatil-rehberi',
+    coverImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200',
+    status: 'published',
+    viewCount: 4521,
+    publishedAt: '2025-04-15',
+    categories: ['guide', 'destination'],
+    translations: {
+      tr: {
+        title: 'Kaş ve Kalkan Tatil Rehberi: Her Şeyi Bilmeniz Gerekenler',
+        content: `<h2>Kaş ve Kalkan Neden Bu Kadar Özel?</h2><p>Türkiye'nin Akdeniz kıyısında yer alan Kaş ve Kalkan, dünyanın en güzel tatil destinasyonları arasında yerini sağlamlaştırmıştır. Kristal berraklığındaki turkuaz denizi, tarihi Likya uygarlığına ait kalıntılar, otantik taş sokaklı çarşıları ve dünya mutfağıyla yarışan restoranlarıyla bu iki kasaba, her tatilciyi büyülemektedir.</p><h2>En İyi Tatil Dönemi</h2><p>Kaş ve Kalkan'a tatile gitmek için en ideal dönem Mayıs-Ekim ayları arasıdır. Yüksek sezonda (Temmuz-Ağustos) hem deniz hem hava sıcaklıkları zirveye ulaşırken, Haziran ve Eylül ayları daha sakin ve ekonomik bir tatil imkânı sunar.</p>`,
+        excerpt: 'Kaş ve Kalkan\'ın büyüleyici dünyasını keşfedin. Seyahat ipuçları, önerilen aktiviteler ve en iyi villa seçenekleri.',
+        seoTitle: 'Kaş ve Kalkan Tatil Rehberi 2025 | Villa Kiralama İpuçları',
+        seoDescription: 'Kaş ve Kalkan\'da tatil planlamak için kapsamlı rehber. Gidilecek yerler, yapılacaklar, en iyi dönem ve villa kiralama ipuçları.',
+      },
+      en: {
+        title: 'Kaş and Kalkan Holiday Guide: Everything You Need to Know',
+        content: `<h2>Why Are Kaş and Kalkan So Special?</h2><p>Located on Turkey's Mediterranean coast, Kaş and Kalkan have established themselves among the world's most beautiful holiday destinations. With crystal-clear turquoise sea, ruins of the ancient Lycian civilization, authentic stone-street bazaars, and restaurants competing with world cuisines, these two towns enchant every visitor.</p>`,
+        excerpt: 'Discover the enchanting world of Kaş and Kalkan. Travel tips, recommended activities and the best villa options.',
+        seoTitle: 'Kaş and Kalkan Holiday Guide 2025 | Villa Rental Tips',
+        seoDescription: 'Comprehensive guide for planning your holiday in Kaş and Kalkan. Places to visit, things to do, best season and villa rental tips.',
+      },
+      ru: {
+        title: 'Путеводитель по Каш и Калкану: Всё, Что Нужно Знать',
+        content: `<h2>Почему Каш и Калкан Так Особенны?</h2><p>Расположенные на средиземноморском побережье Турции, Каш и Калкан утвердились среди самых красивых курортов мира. Кристально чистое бирюзовое море, руины древней ликийской цивилизации и рестораны мирового уровня.</p>`,
+        excerpt: 'Откройте для себя чарующий мир Каша и Калкана. Советы путешественникам и лучшие варианты вилл.',
+        seoTitle: 'Путеводитель Каш и Калкан 2025 | Советы по Аренде Виллы',
+        seoDescription: 'Полный путеводитель по Кашу и Калкану. Достопримечательности, активный отдых и советы по аренде виллы.',
+      },
+    },
+  },
+  {
+    id: 'b002',
+    slug: 'villa-kiralama-ipuclari',
+    coverImage: 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1200',
+    status: 'published',
+    viewCount: 2897,
+    publishedAt: '2025-03-20',
+    categories: ['tips', 'booking'],
+    translations: {
+      tr: {
+        title: '10 Altın Kural: Tatilde Doğru Villa Nasıl Seçilir?',
+        content: `<h2>Villa Seçiminde Dikkat Edilmesi Gerekenler</h2><p>Mükemmel tatil deneyimi için doğru villayı seçmek kritik öneme sahiptir. Yıllar içinde binlerce rezervasyonu yöneten deneyimli ekibimiz, en önemli 10 kuralı sizin için derledi.</p><h3>1. Kişi Sayısını Doğru Hesaplayın</h3><p>Villa kapasitesini aşmamak hem konfor hem de güvenlik açısından önemlidir. Yatak sayısı kadar banyo sayısını da göz önünde bulundurun.</p>`,
+        excerpt: 'Tatil villası seçerken yapılan en yaygın hatalar ve bunlardan kaçınmanın yolları.',
+        seoTitle: '10 Altın Kural: Doğru Tatil Villası Nasıl Seçilir? | Uzman İpuçları',
+        seoDescription: 'Villa kiralama uzmanlarından 10 altın kural. Doğru villayı seçin, hayal kırıklığı yaşamayın.',
+      },
+      en: {
+        title: '10 Golden Rules: How to Choose the Right Vacation Villa',
+        content: `<h2>What to Look for When Choosing a Villa</h2><p>Choosing the right villa is critical for a perfect holiday experience. Our experienced team, who have managed thousands of bookings over the years, has compiled the 10 most important rules for you.</p>`,
+        excerpt: 'Most common mistakes when choosing a holiday villa and how to avoid them.',
+        seoTitle: '10 Golden Rules: How to Choose the Right Vacation Villa | Expert Tips',
+        seoDescription: '10 golden rules from villa rental experts. Choose the right villa and avoid disappointment.',
+      },
+      ru: {
+        title: '10 Золотых Правил: Как Выбрать Правильную Виллу для Отпуска',
+        content: `<h2>На Что Обратить Внимание При Выборе Виллы</h2><p>Правильный выбор виллы критически важен для идеального отпуска. Наша опытная команда составила 10 важнейших правил.</p>`,
+        excerpt: 'Распространённые ошибки при выборе виллы для отдыха и способы их избежать.',
+        seoTitle: '10 Золотых Правил: Как Выбрать Виллу для Отпуска | Советы Экспертов',
+        seoDescription: '10 золотых правил от экспертов по аренде вилл. Выберите правильную виллу.',
+      },
+    },
+  },
+  {
+    id: 'b003',
+    slug: 'kas-likya-yolu-trekking',
+    coverImage: 'https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200',
+    status: 'published',
+    viewCount: 1654,
+    publishedAt: '2025-02-10',
+    categories: ['activities', 'nature'],
+    translations: {
+      tr: {
+        title: 'Likya Yolu\'nda Trekking: Kaş\'tan Kalkan\'a Yürüyüş',
+        content: `<h2>Dünyanın En Güzel Yürüyüş Rotalarından Biri</h2><p>Türkiye'nin en ikonik yürüyüş rotalarından biri olan Likya Yolu, Fethiye'den Antalya'ya uzanan 540 km'lik bir güzergahı kapsamaktadır. Kaş-Kalkan bölgesindeki bölümü ise en görsel açıdan zengin ve tarihi açıdan derin kısmı oluşturmaktadır.</p>`,
+        excerpt: 'Kaş ve Kalkan arasındaki Likya Yolu\'nun en güzel güzergahları, pratik bilgiler ve öneriler.',
+        seoTitle: 'Likya Yolu Trekking: Kaş-Kalkan Bölümü | Yürüyüş Rehberi',
+        seoDescription: 'Kaş\'tan Kalkan\'a Likya Yolu trekking rehberi. En güzel güzergahlar, pratik bilgiler.',
+      },
+      en: {
+        title: 'Trekking the Lycian Way: Walking from Kaş to Kalkan',
+        content: `<h2>One of the World's Most Beautiful Hiking Routes</h2><p>The Lycian Way, one of Turkey's most iconic hiking routes, covers a 540 km route from Fethiye to Antalya. The Kaş-Kalkan section represents the most visually rich and historically deep part.</p>`,
+        excerpt: 'The most beautiful routes of the Lycian Way between Kaş and Kalkan, practical information and recommendations.',
+        seoTitle: 'Lycian Way Trekking: Kaş-Kalkan Section | Hiking Guide',
+        seoDescription: 'Lycian Way trekking guide from Kaş to Kalkan. Most beautiful routes and practical information.',
+      },
+      ru: {
+        title: 'Трекинг по Ликийской Тропе: Пеший Поход из Каша в Калкан',
+        content: `<h2>Один из Красивейших Пешеходных Маршрутов Мира</h2><p>Ликийская Тропа — один из самых знаковых туристических маршрутов Турции, охватывающий 540 км от Фетхие до Антальи.</p>`,
+        excerpt: 'Красивейшие маршруты Ликийской тропы между Кашем и Калканом, практическая информация.',
+        seoTitle: 'Трекинг по Ликийской Тропе: Каш-Калкан | Путеводитель',
+        seoDescription: 'Путеводитель по Ликийской тропе от Каша до Калкана.',
+      },
+    },
+  },
+]

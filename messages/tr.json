@@ -1,0 +1,321 @@
+{
+  "nav": {
+    "villas": "Villalar",
+    "blog": "Blog",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "account": "Hesabım",
+    "favorites": "Favorilerim",
+    "bookings": "Rezervasyonlarım",
+    "wizard": "Villa Bul",
+    "login": "Giriş Yap",
+    "logout": "Çıkış Yap",
+    "admin": "Admin Panel"
+  },
+  "home": {
+    "hero": {
+      "title": "Kaş & Kalkan'ın",
+      "titleHighlight": "En Güzel Villaları",
+      "subtitle": "Türkiye'nin incisi Akdeniz kıyısında, hayalinizdeki villa tatilini yaşayın. Lüks villalar, özel havuzlar, muhteşem manzaralar.",
+      "searchCheckin": "Giriş Tarihi",
+      "searchCheckout": "Çıkış Tarihi",
+      "searchGuests": "Misafir Sayısı",
+      "searchButton": "Villa Ara",
+      "wizardButton": "Villa Bulma Sihirbazı",
+      "stats": {
+        "villas": "Villa",
+        "guests": "Mutlu Misafir",
+        "years": "Yıllık Deneyim"
+      }
+    },
+    "categories": {
+      "title": "Kategoriye Göre Villa Bul",
+      "subtitle": "İhtiyacınıza ve zevkinize göre en uygun villa kategorisini seçin"
+    },
+    "featured": {
+      "title": "Öne Çıkan Villalar",
+      "subtitle": "Misafirlerimizin en çok tercih ettiği efsane villalar",
+      "viewAll": "Tüm Villaları Gör"
+    },
+    "honeymoon": {
+      "title": "Balayı Villaları",
+      "subtitle": "Özel anınızı unutulmaz kılacak romantik ve lüks villalar",
+      "badge": "Romantik Kaçamak",
+      "cta": "Balayı Villalarını Keşfet"
+    },
+    "region": {
+      "title": "Neden Kaş & Kalkan?",
+      "subtitle": "Türkiye'nin en güzel tatil destinasyonu hakkında her şey",
+      "feature1Title": "Kristal Deniz",
+      "feature1Desc": "Akdeniz'in en temiz koylarına ve plajlarına sahip bölge",
+      "feature2Title": "Tarihi Zenginlik",
+      "feature2Desc": "Likya uygarlığının izlerini taşıyan antik kentler ve kalıntılar",
+      "feature3Title": "Gastronomi Cenneti",
+      "feature3Desc": "Taze deniz ürünleri ve yerel lezzetlerle dolu otantik restoranlar",
+      "feature4Title": "Su Sporları",
+      "feature4Desc": "Dalış, yelken, kano ve tekne turları ile aktif tatil imkanı"
+    },
+    "testimonials": {
+      "title": "Misafirlerimiz Ne Diyor?",
+      "subtitle": "Binlerce mutlu misafirin deneyimlerinden bir kısmı"
+    },
+    "blog": {
+      "title": "Blog & Seyahat Rehberi",
+      "subtitle": "Kaş ve Kalkan hakkında faydalı bilgiler ve ipuçları",
+      "readMore": "Devamını Oku",
+      "viewAll": "Tüm Yazıları Gör"
+    },
+    "wizard": {
+      "title": "Size Özel Villa Bulalım",
+      "subtitle": "4 adımda mükemmel villayı bulun",
+      "startButton": "Sihirbazı Başlat"
+    }
+  },
+  "villa": {
+    "bedrooms": "Yatak Odası",
+    "bathrooms": "Banyo",
+    "guests": "Misafir",
+    "size": "m²",
+    "perNight": "/ gece",
+    "from": "den itibaren",
+    "viewDetails": "Detayları Gör",
+    "inquire": "Rezervasyon Talebi",
+    "addToFavorites": "Favorilere Ekle",
+    "removeFromFavorites": "Favorilerden Çıkar",
+    "amenities": "Özellikler",
+    "location": "Konum",
+    "reviews": "Değerlendirmeler",
+    "similarVillas": "Benzer Villalar",
+    "availability": "Müsaitlik Takvimi",
+    "availabilityLegend": {
+      "available": "Müsait",
+      "booked": "Dolu",
+      "selected": "Seçilen"
+    },
+    "sticky": {
+      "selectDates": "Tarih Seçin",
+      "checkin": "Giriş",
+      "checkout": "Çıkış",
+      "guests": "Misafir",
+      "adults": "Yetişkin",
+      "children": "Çocuk",
+      "babies": "Bebek",
+      "nights": "gece",
+      "cleaningFee": "Temizlik Ücreti",
+      "total": "Toplam",
+      "requestButton": "Rezervasyon Talebi Gönder",
+      "inquiryNote": "Ücretsiz danışma, ödeme yok",
+      "minStay": "Minimum konaklama:",
+      "priceNote": "Fiyatlar EUR cinsindendir"
+    },
+    "gallery": {
+      "showAll": "Tüm Fotoğrafları Gör",
+      "close": "Kapat"
+    },
+    "checkin": "Giriş Saati",
+    "checkout": "Çıkış Saati",
+    "minStay": "Min. Konaklama",
+    "securityDeposit": "Depozito"
+  },
+  "search": {
+    "title": "Villa Arama",
+    "filters": "Filtreler",
+    "clearFilters": "Filtreleri Temizle",
+    "results": "sonuç bulundu",
+    "noResults": "Arama kriterlerinize uygun villa bulunamadı.",
+    "sortBy": "Sırala",
+    "sortOptions": {
+      "recommended": "Önerilen",
+      "priceLow": "En Düşük Fiyat",
+      "priceHigh": "En Yüksek Fiyat",
+      "rating": "En Yüksek Puan",
+      "popular": "En Popüler"
+    },
+    "view": {
+      "grid": "Izgara",
+      "list": "Liste",
+      "map": "Harita"
+    },
+    "priceRange": "Fiyat Aralığı",
+    "min": "Min.",
+    "max": "Maks.",
+    "bedrooms": "Yatak Odası Sayısı",
+    "any": "Herhangi",
+    "categories": "Kategoriler",
+    "amenities": "Özellikler"
+  },
+  "wizard": {
+    "title": "Size Özel Villa Bulalım",
+    "subtitle": "Birkaç soruya cevap vererek hayalinizdeki villayı bulun",
+    "step": "Adım",
+    "of": "/",
+    "next": "İleri",
+    "back": "Geri",
+    "search": "Villa Ara",
+    "step1": {
+      "title": "Ne Zaman Gitmek İstiyorsunuz?",
+      "checkin": "Giriş Tarihi",
+      "checkout": "Çıkış Tarihi"
+    },
+    "step2": {
+      "title": "Kaç Kişisiniz?",
+      "adults": "Yetişkin",
+      "adultsNote": "13 yaş ve üzeri",
+      "children": "Çocuk",
+      "childrenNote": "2-12 yaş",
+      "babies": "Bebek",
+      "babiesNote": "2 yaş altı"
+    },
+    "step3": {
+      "title": "Tercihleriniz Neler?",
+      "subtitle": "Birden fazla seçebilirsiniz"
+    },
+    "step4": {
+      "title": "Bütçeniz Ne Kadar?",
+      "perNight": "gecelik"
+    },
+    "results": {
+      "title": "Size Uygun Villalar",
+      "found": "villa bulundu",
+      "noResults": "Seçtiğiniz kriterlere uygun villa bulunamadı. Filtreleri gevşetmeyi deneyin.",
+      "modifySearch": "Aramayı Değiştir"
+    }
+  },
+  "booking": {
+    "title": "Rezervasyon Talebi",
+    "villaDetails": "Villa Detayları",
+    "guestInfo": "Misafir Bilgileri",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "nationality": "Uyruk",
+    "specialRequests": "Özel İstekler",
+    "specialRequestsPlaceholder": "Varsa özel isteklerinizi belirtin (örn. bebek karyolası, erken giriş vb.)",
+    "summary": "Özet",
+    "checkin": "Giriş",
+    "checkout": "Çıkış",
+    "nights": "Gece",
+    "guests": "Misafir",
+    "pricePerNight": "Gecelik Fiyat",
+    "cleaningFee": "Temizlik Ücreti",
+    "total": "Toplam",
+    "submitRequest": "Talep Gönder",
+    "terms": "Rezervasyon talebini göndererek gizlilik politikamızı kabul etmiş olursunuz.",
+    "confirmation": {
+      "title": "Talebiniz Alındı!",
+      "subtitle": "Rezervasyon talebiniz başarıyla gönderildi. En geç 2 saat içinde size dönüş yapacağız.",
+      "email": "Onay e-postası gönderildi:",
+      "refCode": "Referans Kodu:",
+      "backHome": "Ana Sayfaya Dön",
+      "viewVillas": "Diğer Villaları Gör"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Kaş, Kalkan ve çevre bölge hakkında seyahat rehberleri, ipuçları ve ilham verici içerikler",
+    "readMore": "Devamını Oku",
+    "postedOn": "Tarih:",
+    "views": "görüntülenme",
+    "categories": {
+      "guide": "Rehber",
+      "tips": "İpuçları",
+      "activities": "Aktiviteler",
+      "destination": "Destinasyon",
+      "nature": "Doğa",
+      "booking": "Rezervasyon"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "Kaş ve Kalkan'ın en güzel villalarını sizinle buluşturan deneyimli ekibimiz",
+    "story": {
+      "title": "Hikayemiz",
+      "content": "2015 yılında Kaş'ta kurulan şirketimiz, 10 yıl içinde bölgenin en güvenilir villa kiralama platformuna dönüştü. 200'den fazla premium villa, 5000'i aşkın mutlu misafir ve çok sayıda ödülle villa tatilini yeniden tanımladık."
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "trust": "Güven",
+      "trustDesc": "Her villa kişisel olarak denetleniyor, her bilgi doğrulanıyor",
+      "quality": "Kalite",
+      "qualityDesc": "Sadece en yüksek standarttaki villalar portföyümüzde yer alıyor",
+      "service": "Hizmet",
+      "serviceDesc": "7/24 Türkçe, İngilizce ve Rusça destek hattı"
+    },
+    "team": "Ekibimiz",
+    "contact": "İletişime Geç"
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Sorularınız için bize ulaşın, en kısa sürede dönüş yapalım",
+    "form": {
+      "name": "Adınız",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "subject": "Konu",
+      "message": "Mesaj",
+      "send": "Mesaj Gönder",
+      "success": "Mesajınız gönderildi! En kısa sürede dönüş yapacağız.",
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "info": {
+      "address": "Adres",
+      "addressValue": "Çukurbağ Yarımadası, Kaş, Antalya",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "hours": "Çalışma Saatleri",
+      "hoursValue": "Her gün 09:00 - 21:00"
+    }
+  },
+  "footer": {
+    "description": "Kaş ve Kalkan'ın en güzel villalarında unutulmaz tatil deneyimleri",
+    "quickLinks": "Hızlı Linkler",
+    "categories": "Kategoriler",
+    "contact": "İletişim",
+    "copyright": "Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "sitemap": "Site Haritası"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "retry": "Tekrar Dene",
+    "back": "Geri",
+    "viewAll": "Tümünü Gör",
+    "close": "Kapat",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "search": "Ara",
+    "filter": "Filtrele",
+    "reset": "Sıfırla",
+    "confirm": "Onayla",
+    "night": "gece",
+    "nights": "gece",
+    "guest": "misafir",
+    "guests": "misafir",
+    "bedroom": "yatak odası",
+    "bedrooms": "yatak odası",
+    "bathroom": "banyo",
+    "bathrooms": "banyo",
+    "yes": "Evet",
+    "no": "Hayır",
+    "or": "veya",
+    "and": "ve",
+    "from": "itibaren",
+    "to": "kadar",
+    "min": "Min.",
+    "max": "Max.",
+    "readMore": "Devamını Oku",
+    "showLess": "Daha Az Göster",
+    "showMore": "Daha Fazla Göster"
+  },
+  "currency": {
+    "eur": "Euro",
+    "try": "Türk Lirası",
+    "usd": "Amerikan Doları"
+  }
+}
