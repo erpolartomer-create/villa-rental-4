@@ -90,7 +90,8 @@ export function CategoryGrid() {
                   <img
                     src={categoryImages[cat.slug] || '/images/cat_luxury.png'}
                     alt={name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 gpu-layer"
+                    decoding="async"
                   />
                   {/* Layered gradient: strong bottom, light top */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-black/5 group-hover:from-black/95 transition-all duration-500" />

@@ -268,3 +268,22 @@ html {
   font-size: 0.75rem;
   color: #6b6154;
 }
+
+/* GPU Hardware Acceleration to prevent image/scroll flickering and lag */
+.gpu-layer {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  perspective: 1000px;
+  will-change: transform, opacity;
+}
+
+/* Apply hardware acceleration defaults to all img tags to prevent blink/flash during layout shifts */
+img {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+

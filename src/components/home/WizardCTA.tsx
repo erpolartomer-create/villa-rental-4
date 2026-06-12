@@ -37,7 +37,8 @@ export function WizardCTA() {
         <img
           src="/images/cat_beachfront.png"
           alt=""
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover gpu-layer"
+          decoding="async"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#071220]/70 via-[#0a1a2e]/82 to-[#0a1a2e]/95" />
         {/* Gold accent glow */}

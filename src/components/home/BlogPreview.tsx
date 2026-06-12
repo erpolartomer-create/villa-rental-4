@@ -50,7 +50,8 @@ export function BlogPreview() {
                 <img
                   src={featured.coverImage}
                   alt={tr.title}
-                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-700"
+                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-700 gpu-layer"
+                  decoding="async"
                 />
 
                 {/* Gradient overlay */}
@@ -120,7 +121,8 @@ export function BlogPreview() {
                     <img
                       src={post.coverImage}
                       alt={tr.title}
-                      className="w-full h-full object-cover group-hover:scale-[1.06] transition-transform duration-500"
+                      className="w-full h-full object-cover group-hover:scale-[1.06] transition-transform duration-500 gpu-layer"
+                      decoding="async"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent" />
 
