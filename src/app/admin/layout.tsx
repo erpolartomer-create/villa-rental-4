@@ -7,6 +7,7 @@ import {
   Settings, Search, Image, BarChart3, Menu, X, ChevronRight,
   LogOut, Sparkles, ExternalLink,
 } from 'lucide-react'
+import { StoreHydration } from '@/components/StoreHydration'
 
 const navItems = [
   { href: '/admin',              label: 'Dashboard',        icon: LayoutDashboard },
@@ -102,6 +103,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
 
   return (
     <div className="flex h-screen bg-stone-100 overflow-hidden">
+      <StoreHydration />
 
       {/* Desktop sidebar */}
       <div className="hidden lg:flex">

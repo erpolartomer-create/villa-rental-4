@@ -52,6 +52,6 @@ export const useBlogStore = create<BlogStore>()(
         return all.find(p => p.slug === slug)
       },
     }),
-    { name: 'blog-store' }
+    { name: 'blog-store', skipHydration: true }
   )
 )

@@ -7,6 +7,7 @@ import { Locale } from '@/types/villa'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { ChatBot } from '@/components/ChatBot'
+import { StoreHydration } from '@/components/StoreHydration'
 import { Toaster } from 'sonner'
 
 interface Props {
@@ -66,6 +67,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <NextIntlClientProvider messages={messages}>
+      <StoreHydration />
       <Header />
       <main className="min-h-screen">
         {children}

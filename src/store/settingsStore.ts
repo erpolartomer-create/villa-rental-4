@@ -52,6 +52,6 @@ export const useSettingsStore = create<SettingsStore>()(
         set(state => ({ settings: { ...state.settings, ...partial } })),
       resetSettings: () => set({ settings: DEFAULTS }),
     }),
-    { name: 'site-settings' }
+    { name: 'site-settings', skipHydration: true }
   )
 )

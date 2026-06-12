@@ -29,6 +29,6 @@ export const useBookingsStore = create<BookingsStore>()(
 
       getBookingById: (id) => get().bookings.find(b => b.id === id),
     }),
-    { name: 'bookings-store' }
+    { name: 'bookings-store', skipHydration: true }
   )
 )

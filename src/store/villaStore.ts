@@ -64,6 +64,6 @@ export const useVillaStore = create<VillaStore>()(
 
       resetToStatic: () => set({ customVillas: [], deletedIds: [] }),
     }),
-    { name: 'villa-store' }
+    { name: 'villa-store', skipHydration: true }
   )
 )

@@ -14,6 +14,6 @@ export const useCurrencyStore = create<CurrencyStore>()(
       currency: 'EUR',
       setCurrency: (currency) => set({ currency }),
     }),
-    { name: 'villa-currency' }
+    { name: 'villa-currency', skipHydration: true }
   )
 )

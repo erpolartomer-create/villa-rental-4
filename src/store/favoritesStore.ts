@@ -22,6 +22,6 @@ export const useFavoritesStore = create<FavoritesStore>()(
       },
       isFavorite: (villaId) => get().favorites.includes(villaId),
     }),
-    { name: 'villa-favorites' }
+    { name: 'villa-favorites', skipHydration: true }
   )
 )
