@@ -3,9 +3,9 @@ import { useTranslations } from 'next-intl'
 import { Waves, Landmark, UtensilsCrossed, Wind, MapPin } from 'lucide-react'
 
 const photos = {
-  main:   'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=900&q=85',
-  topRight: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=700&q=85',
-  botRight: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&q=85',
+  main:   '/images/kaputas_beach.png',
+  topRight: '/images/patara_dunes.png',
+  botRight: '/images/kalkan_gastronomy.png',
 }
 
 

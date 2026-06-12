@@ -18,14 +18,14 @@ const categoryIcons: Record<string, LucideIcon> = {
 }
 
 const categoryImages: Record<string, string> = {
-  luxury:       'https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=900&q=85',
-  seaview:      'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=900&q=85',
-  honeymoon:    'https://images.unsplash.com/photo-1602002418082-a4443e081dd1?w=700&q=85',
-  family:       'https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=700&q=85',
-  conservative: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=700&q=85',
-  beachfront:   'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=700&q=85',
-  petfriendly:  'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=900&q=85',
-  boutique:     'https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=900&q=85',
+  luxury:       '/images/cat_luxury.png',
+  seaview:      '/images/kaputas_beach.png',
+  honeymoon:    '/images/cat_honeymoon.png',
+  family:       '/images/cat_nature.png',
+  conservative: '/images/cat_conservative.png',
+  beachfront:   '/images/cat_beachfront.png',
+  petfriendly:  '/images/cat_pet_friendly.png',
+  boutique:     '/images/cat_boutique.png',
 }
 
 // Categories 0-1 and 6-7 are featured (col-span-2, taller)
@@ -88,7 +88,7 @@ export function CategoryGrid() {
                 {/* Background image */}
                 <div className="absolute inset-0">
                   <img
-                    src={categoryImages[cat.slug] || 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800'}
+                    src={categoryImages[cat.slug] || '/images/cat_luxury.png'}
                     alt={name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />

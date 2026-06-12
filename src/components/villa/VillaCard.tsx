@@ -31,7 +31,7 @@ export function VillaCard({ villa, compact = false }: Props) {
       {/* Full-bleed image */}
       <Link href={`/${locale}/villas/${villa.slug}`} className="absolute inset-0 block">
         <img
-          src={coverImage?.url || 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=700'}
+          src={coverImage?.url || '/images/cat_luxury.png'}
           alt={coverImage?.altText || translation.name}
           className="w-full h-full object-cover group-hover:scale-[1.06] transition-transform duration-700"
         />

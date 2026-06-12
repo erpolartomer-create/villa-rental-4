@@ -87,7 +87,7 @@ export default function VillasPage() {
       <div className="relative overflow-hidden" style={{ minHeight: 320 }}>
         {/* Background image */}
         <img
-          src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1800&q=80"
+          src="/images/hero_bg.png"
           alt="Kaş Kalkan villa"
           className="absolute inset-0 w-full h-full object-cover object-center"
         />

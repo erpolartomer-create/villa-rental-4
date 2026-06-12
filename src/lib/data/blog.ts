@@ -4,7 +4,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 'b001',
     slug: 'kalkan-kas-tatil-rehberi',
-    coverImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200',
+    coverImage: '/images/kaputas_beach.png',
     status: 'published',
     viewCount: 4521,
     publishedAt: '2025-04-15',
@@ -36,7 +36,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 'b002',
     slug: 'villa-kiralama-ipuclari',
-    coverImage: 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1200',
+    coverImage: '/images/cat_luxury.png',
     status: 'published',
     viewCount: 2897,
     publishedAt: '2025-03-20',
@@ -68,7 +68,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 'b003',
     slug: 'kas-likya-yolu-trekking',
-    coverImage: 'https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200',
+    coverImage: '/images/patara_dunes.png',
     status: 'published',
     viewCount: 1654,
     publishedAt: '2025-02-10',

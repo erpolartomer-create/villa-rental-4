@@ -18,7 +18,7 @@ export function HoneymoonVillas() {
       {/* Full-bleed background — same approach as WizardCTA */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1602002418082-a4443e081dd1?w=1800&q=80"
+          src="/images/cat_honeymoon.png"
           alt=""
           className="w-full h-full object-cover"
         />

@@ -26,7 +26,7 @@ export default function FavoritesPage() {
       <div className="relative overflow-hidden" style={{ minHeight: '30vh' }}>
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=2000&q=80"
+            src="/images/cat_luxury.png"
             alt="Favoriler"
             className="w-full h-full object-cover"
           />

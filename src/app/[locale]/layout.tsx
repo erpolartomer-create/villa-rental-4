@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale === 'tr' ? 'tr_TR' : locale === 'ru' ? 'ru_RU' : 'en_US',
       siteName: 'Kaş & Kalkan Villa Rental',
-      images: [{ url: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200', width: 1200, height: 630 }],
+      images: [{ url: '/images/cat_luxury.png', width: 1200, height: 630 }],
     },
     twitter: { card: 'summary_large_image' },
     alternates: {
