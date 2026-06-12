@@ -9,6 +9,6 @@ export default createMiddleware({
 
 export const config = {
   matcher: [
-    '/((?!admin|api|_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt).*)',
+    '/((?!admin|api|images|_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt).*)',
   ],
 }
