@@ -25,7 +25,7 @@ export default function BlogPage() {
       <div className="relative overflow-hidden" style={{ minHeight: '42vh' }}>
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=2000&q=85"
+            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=2000&q=85"
             alt=""
             className="w-full h-full object-cover"
           />

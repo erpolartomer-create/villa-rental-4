@@ -35,7 +35,7 @@ export function WizardCTA() {
       {/* Full-bleed background */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1800&q=80"
+          src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1800&q=80"
           alt=""
           className="w-full h-full object-cover"
         />

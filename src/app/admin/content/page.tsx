@@ -8,7 +8,7 @@ type Locale = 'tr' | 'en' | 'ru'
 
 const initialContent = {
   hero: {
-    tr: { title: 'Kaş & Kalkan\'ın En Güzel Villaları', subtitle: 'Türkiye\'nin en gözde tatil köşelerinde sizi bekleyen lüks villalar', ctaText: 'Villalara Göz At', backgroundImage: 'https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=1920' },
+    tr: { title: 'Kaş & Kalkan\'ın En Güzel Villaları', subtitle: 'Türkiye\'nin en gözde tatil köşelerinde sizi bekleyen lüks villalar', ctaText: 'Villalara Göz At', backgroundImage: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1920' },
     en: { title: 'The Most Beautiful Villas in Kaş & Kalkan', subtitle: 'Luxury villas awaiting you in Turkey\'s most sought-after holiday destinations', ctaText: 'Browse Villas', backgroundImage: '' },
     ru: { title: 'Лучшие Виллы в Каш и Калкан', subtitle: 'Роскошные виллы в самых популярных туристических местах Турции', ctaText: 'Посмотреть Виллы', backgroundImage: '' },
   },

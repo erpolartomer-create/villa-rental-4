@@ -7,25 +7,25 @@ const TEAM = [
     name: 'Ahmet Yılmaz',
     role: 'Kurucu & CEO',
     bio: '15 yıllık turizm deneyimi',
-    photo: 'https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?w=400&q=80',
+    photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80',
   },
   {
     name: 'Ayşe Kaya',
     role: 'Villa Koordinatörü',
     bio: 'Kaş & Kalkan uzmanı',
-    photo: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&q=80',
+    photo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80',
   },
   {
     name: 'Ivan Petrov',
     role: 'Rusça Müşteri Hizm.',
     bio: 'Rus turistlere özel hizmet',
-    photo: 'https://images.unsplash.com/photo-1500048993953-d23a436266cf?w=400&q=80',
+    photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80',
   },
   {
     name: 'Emma Wilson',
     role: 'İngilizce Destek',
     bio: 'Uluslararası müşteri ilişkileri',
-    photo: 'https://images.unsplash.com/photo-1501183007986-d0d080b147f9?w=400&q=80',
+    photo: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80',
   },
 ]
 
@@ -72,7 +72,7 @@ export default function AboutPage() {
       <div className="relative overflow-hidden" style={{ minHeight: '50vh' }}>
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=2000&q=85"
+            src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=2000&q=85"
             alt="Kaş Kalkan"
             className="w-full h-full object-cover object-center"
           />
@@ -142,21 +142,21 @@ export default function AboutPage() {
           <div className="grid grid-cols-5 gap-3" style={{ height: 460 }}>
             <div className="col-span-3 row-span-2 rounded-3xl overflow-hidden h-full">
               <img
-                src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=900&q=85"
+                src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=900&q=85"
                 alt="Villa manzara"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
             </div>
             <div className="col-span-2 rounded-3xl overflow-hidden" style={{ height: 220 }}>
               <img
-                src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=700&q=85"
+                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=700&q=85"
                 alt="Kaş sahil"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
             </div>
             <div className="col-span-2 rounded-3xl overflow-hidden" style={{ height: 224 }}>
               <img
-                src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=700&q=85"
+                src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=700&q=85"
                 alt="Villa havuz"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
@@ -267,7 +267,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-[#071220]/75 via-[#0a1a2e]/90 to-[#0a1a2e]/97" />
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1600&q=70"
+            src="https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=1600&q=70"
             alt=""
             className="w-full h-full object-cover opacity-20"
           />

@@ -270,7 +270,7 @@ export default function WizardPage() {
       <div className="relative overflow-hidden" style={{ minHeight: '32vh' }}>
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=2000&q=80"
+            src="https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=2000&q=80"
             alt="Villa arama"
             className="w-full h-full object-cover"
           />

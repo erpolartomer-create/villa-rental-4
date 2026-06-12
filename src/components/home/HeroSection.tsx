@@ -105,7 +105,7 @@ export function HeroSection() {
     <section className="relative overflow-hidden" style={{ minHeight: '100svh' }}>
       {/* Background */}
       <div className="absolute inset-0">
-        <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=2000&q=85"
+        <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=2000&q=85"
           alt="" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/55 to-black/30" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/70" />
