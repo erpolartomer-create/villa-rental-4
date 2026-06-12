@@ -20,7 +20,7 @@ export function HoneymoonVillas() {
         <img
           src="/images/cat_honeymoon.png"
           alt=""
-          className="w-full h-full object-cover gpu-layer"
+          className="w-full h-full object-cover"
           decoding="async"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#071220]/75 via-[#0a1a2e]/88 to-[#0a1a2e]/97" />
@@ -96,7 +96,7 @@ export function HoneymoonVillas() {
                   <img
                     src={cover?.url}
                     alt={tr.name}
-                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.07] transition-transform duration-700 gpu-layer"
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.07] transition-transform duration-700"
                     decoding="async"
                   />
                   {/* Gradient overlay */}

@@ -33,7 +33,7 @@ export function VillaCard({ villa, compact = false }: Props) {
         <img
           src={coverImage?.url || '/images/cat_luxury.png'}
           alt={coverImage?.altText || translation.name}
-          className="w-full h-full object-cover group-hover:scale-[1.06] transition-transform duration-700 gpu-layer"
+          className="w-full h-full object-cover group-hover:scale-[1.06] transition-transform duration-700"
           decoding="async"
         />
       </Link>

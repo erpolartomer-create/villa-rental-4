@@ -192,7 +192,7 @@ export function DiscountedVillas() {
                         src={cover?.url}
                         alt={tr.name}
                         draggable={false}
-                        className="w-full h-full object-cover group-hover:scale-[1.06] transition-transform duration-700 gpu-layer"
+                        className="w-full h-full object-cover group-hover:scale-[1.06] transition-transform duration-700"
                         decoding="async"
                       />
                     </Link>

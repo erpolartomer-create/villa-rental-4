@@ -57,15 +57,15 @@ export function Header() {
   const transparent = isHome && !scrolled
 
   return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-[background-color,backdrop-filter,box-shadow] duration-300 gpu-layer ${
-        transparent
-          ? 'bg-transparent'
-          : 'bg-white/95 backdrop-blur-xl shadow-[0_1px_0_rgba(28,23,18,0.07)]'
-      }`}
-    >
-      <div className="container-villa">
-        <div className="flex items-center justify-between h-[68px]">
+    <header className="fixed top-0 left-0 right-0 z-50 h-[68px] gpu-layer">
+      {/* High-performance backdrop overlay with opacity transition to avoid browser layout repaints */}
+      <div
+        className={`absolute inset-0 transition-opacity duration-300 -z-10 bg-white/95 backdrop-blur-xl shadow-[0_1px_0_rgba(28,23,18,0.07)] ${
+          transparent ? 'opacity-0' : 'opacity-100'
+        }`}
+      />
+      <div className="container-villa h-full">
+        <div className="flex items-center justify-between h-full">
 
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center gap-3 shrink-0">

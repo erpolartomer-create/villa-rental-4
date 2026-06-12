@@ -76,7 +76,7 @@ export function RegionSection() {
               <img
                 src={photos.main}
                 alt="Kaş sahil"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 gpu-layer"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 decoding="async"
               />
             </div>
@@ -85,7 +85,7 @@ export function RegionSection() {
               <img
                 src={photos.topRight}
                 alt="Deniz manzarası"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 gpu-layer"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 decoding="async"
               />
             </div>
@@ -94,7 +94,7 @@ export function RegionSection() {
               <img
                 src={photos.botRight}
                 alt="Gastronomi"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 gpu-layer"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 decoding="async"
               />
             </div>

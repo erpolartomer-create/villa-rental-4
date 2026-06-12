@@ -106,7 +106,7 @@ export function HeroSection() {
       {/* Background */}
       <div className="absolute inset-0">
         <img src="/images/hero_bg.png"
-          alt="" className="w-full h-full object-cover gpu-layer" decoding="async" />
+          alt="" className="w-full h-full object-cover" decoding="async" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/55 to-black/30" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/70" />
       </div>
@@ -306,7 +306,7 @@ export function HeroSection() {
                   className="group flex items-center gap-3 bg-white/8 hover:bg-white/15 border border-white/12 rounded-xl overflow-hidden transition-all">
                   <div className="relative w-20 h-20 shrink-0">
                     <img src={cover?.url} alt={tr.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 gpu-layer" decoding="async" />
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" decoding="async" />
                     <div className="absolute top-1.5 left-1.5 bg-[#c8892a] text-white text-[10px] font-bold px-1.5 py-0.5 rounded-md">
                       -{discount}%
                     </div>
@@ -523,7 +523,7 @@ export function HeroSection() {
                       className="group flex items-center gap-4 bg-white/8 hover:bg-white/18 border border-white/12 hover:border-white/30 rounded-2xl p-4 transition-all duration-200">
                       <div className="relative w-24 h-24 rounded-xl overflow-hidden shrink-0">
                         <img src={cover?.url} alt={tr.name}
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 gpu-layer" decoding="async" />
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" decoding="async" />
                         <div className="absolute top-2 left-2 bg-[#c8892a] text-white text-[10px] font-bold px-2 py-0.5 rounded-lg">-{discount}%</div>
                       </div>
                       <div className="flex-1 min-w-0">
