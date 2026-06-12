@@ -18,14 +18,14 @@ const categoryIcons: Record<string, LucideIcon> = {
 }
 
 const categoryImages: Record<string, string> = {
-  luxury:       'https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=900&q=85',
-  seaview:      'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=900&q=85',
-  honeymoon:    'https://images.unsplash.com/photo-1602002418082-a4443e081dd1?w=700&q=85',
-  family:       'https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=700&q=85',
-  conservative: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=700&q=85',
-  beachfront:   'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=700&q=85',
-  petfriendly:  'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=900&q=85',
-  boutique:     'https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=900&q=85',
+  luxury:       'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=900&q=85',
+  seaview:      'https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=900&q=85',
+  honeymoon:    'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=700&q=85',
+  family:       'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=700&q=85',
+  conservative: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=700&q=85',
+  beachfront:   'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=700&q=85',
+  petfriendly:  'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=900&q=85',
+  boutique:     'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=900&q=85',
 }
 
 // Categories 0-1 and 6-7 are featured (col-span-2, taller)
@@ -88,7 +88,7 @@ export function CategoryGrid() {
                 {/* Background image */}
                 <div className="absolute inset-0">
                   <img
-                    src={categoryImages[cat.slug] || 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800'}
+                    src={categoryImages[cat.slug] || 'https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800'}
                     alt={name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />

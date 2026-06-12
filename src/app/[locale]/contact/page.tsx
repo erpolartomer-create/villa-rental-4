@@ -74,7 +74,7 @@ export default function ContactPage() {
       <div className="relative overflow-hidden" style={{ minHeight: '40vh' }}>
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=2000&q=85"
+            src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=2000&q=85"
             alt="Kaş sahil"
             className="w-full h-full object-cover"
           />
